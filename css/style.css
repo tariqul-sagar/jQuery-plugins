@@ -1,0 +1,66 @@
+/*Header CSS start*/
+header{
+	padding: 15px 0;
+	background-color: #0d0a22;
+}
+.c_navbar{
+	color: #ffffff;
+}
+.c_logo, .c_link{
+	color: #ffffff;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.c_logo:hover, .c_link:hover{
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+/*Header CSS end*/
+
+/*Title start*/
+.main{
+	padding: 10px 0;
+	background-color: #000000;
+}
+.main_title{
+	text-align: center;
+}
+.main_h1{
+	color: #ffffff;
+}
+/*Title end*/
+
+/*Content CSS start*/
+.wow1{
+	padding: 0 0 20px;
+}
+.title{
+	padding: 5px 0;
+	text-align: center;
+}
+.title_h1{
+	font-size: 30px;
+	color: #000000;
+}
+.box{
+	margin-bottom: 50px;
+	width: 100%;
+	height: 250px;
+}
+.box1{
+	background-color: #d9d9d9;
+}
+.box2{
+	background-color: #cd9d9d;
+}
+.box3{
+	background-color: #6e2121;
+}
+.box4{
+	background-color: #a5d396;
+}
+.box5{
+	background-color: #73cbcb;
+}
+/*Content CSS end*/
