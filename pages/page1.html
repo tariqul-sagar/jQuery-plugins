@@ -9,6 +9,8 @@
     <link rel="shortcut icon" type="images/png" href="" sizes="16x16">
 
 
+    <!-- AOS CSS File -->
+    <link rel="stylesheet" type="text/css" href="../vendor/aos/css/aos.css">
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <!-- Custom CSS File -->
@@ -31,10 +33,10 @@
               <div class="collapse navbar-collapse" id="nav_id">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link c_link" aria-current="page" href="../index.html">Home Page</a>
+                    <a class="nav-link c_link" aria-current="page" href="../index.html">WOW js</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link c_link" href="page1.html">Page 1</a>
+                    <a class="nav-link c_link" href="page1.html">AOS</a>
                   </li>
 
                   <li class="nav-item">
@@ -55,10 +57,100 @@
     </header>
     <!-- Header end -->
 
+    <!-- Title start -->
+    <section class="main">
+      <div class="container">
+        <div class="main_title">
+          <h1 class="main_h1">AOS</h1>
+        </div>
+      </div>
+    </section>
+    <!-- Title end -->
 
+    <section class="aos1">
+      <div class="container">
+        <div class="title">
+          <h1 class="title_h1">FadeUp</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="box_aos" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="aos_img">
+                <img class="img-fluid" src="../images/banner.png" alt="Test">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1 class="title_h1">FlipRight</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="box_aos" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="aos_img">
+                <img class="img-fluid" src="../images/banner.png" alt="Test">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1 class="title_h1">ZoomIn</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="box_aos" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+              <div class="aos_img">
+                <img class="img-fluid" src="../images/banner.png" alt="Test">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1 class="title_h1">Zoom-Out-Down</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="box_aos" data-aos="zoom-out-down" data-aos-duration="3000">
+              <div class="aos_img">
+                <img class="img-fluid" src="../images/banner.png" alt="Test">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1 class="title_h1">Fade-Zoom-In</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="box_aos" data-aos="fade-zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+              <div class="aos_img">
+                <img class="img-fluid" src="../images/banner.png" alt="Test">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AOS JS File -->
+    <script src="../vendor/aos/js/aos.js"></script>
+    <!-- Vendor JS File -->
+    <script src="../vendor/wow/js/wow.min.js"></script>
     <!-- Bootstrap JS File -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS File -->
     <script src="../js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -38,3 +38,9 @@ wow = new WOW(
 	$(".incremental-counter").incrementalCounter({
 	  		"digits": 4
 	});
+
+
+
+// AOS plugins start
+	AOS.init();
+// AOS plugins end
